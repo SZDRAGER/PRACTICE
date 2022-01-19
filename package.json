@@ -5,11 +5,26 @@
   "description": "a project to try different stuff",
   "main": "everything.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "DRAGER",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "jest-cli": "^27.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SZDRAGER/PRACTICE.git"
+  },
+  "keywords": [
+    "AD"
+  ],
+  "bugs": {
+    "url": "https://github.com/SZDRAGER/PRACTICE/issues"
+  },
+  "homepage": "https://github.com/SZDRAGER/PRACTICE#readme"
 }
