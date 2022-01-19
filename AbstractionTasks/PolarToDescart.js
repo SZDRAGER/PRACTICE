@@ -25,5 +25,6 @@ const getY = (point) => {
 };
 
 export default makePoint;
+export { getX, getY };
 
 

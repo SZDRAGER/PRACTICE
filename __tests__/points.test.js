@@ -1,4 +1,4 @@
-import calculateDistance from '../Abstraction/points.js';
+import calculateDistance from '../AbstractionTasks/points.js';
 
 test('point1', () => {
   const point1 = [0, 0];

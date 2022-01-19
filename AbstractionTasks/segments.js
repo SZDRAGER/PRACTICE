@@ -1,16 +1,14 @@
 /* 
-segments.js
-
 Implement and export the following functions:
 
-    makeDecartPoint()
+  makeDecartPoint()
 
-     makeSegment(). Takes two points as input and returns a segment.
-        makeSegment(beginPoint, endPoint)
+  makeSegment(). Takes two points as input and returns a segment.
+    makeSegment(beginPoint, endPoint)
 
-     getMidpointOfSegment(). Takes a segment as input and returns a point located in the middle of the segment.
-     getBeginPoint(). Takes a segment as input and returns the segment's start point.
-     getEndPoint(). Takes a segment as input and returns the end point of the segment. 
+  getMidpointOfSegment(). Takes a segment as input and returns a point located in the middle of the segment.
+  getBeginPoint(). Takes a segment as input and returns the segment's start point.
+  getEndPoint(). Takes a segment as input and returns the end point of the segment. 
 */
 
 const makeDecartPoint = (x, y) => ({ x, y });
