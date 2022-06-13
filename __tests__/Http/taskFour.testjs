@@ -1,4 +1,4 @@
-import fs from 'fs';
+/* import fs from 'fs';
 import url from 'url';
 import axios from 'axios';
 import httpHeaders from 'http-headers';
@@ -59,3 +59,4 @@ describe('request', () => {
     expect(contentType).toEqual('application/x-www-form-urlencoded');
   });
 });
+ */

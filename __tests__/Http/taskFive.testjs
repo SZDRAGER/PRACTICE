@@ -1,4 +1,4 @@
-import fs from 'fs';
+/* import fs from 'fs';
 import url from 'url';
 import axios from 'axios';
 import httpHeaders from 'http-headers';
@@ -31,4 +31,4 @@ test('should work', async () => {
   const { status, statusText } = await axios(options);
   const result = { status, statusText };
   expect(result).toMatchObject({ status: 200 });
-});
+}); */
