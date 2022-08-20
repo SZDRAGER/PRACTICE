@@ -1,5 +1,5 @@
 /* 
-Implement and export by default a function that checks if a given number is prime and prints yes or no to the screen.
+Implement and export by default a function that checks if a given number is prime and prints yes or no.
 
 The purpose of this task is to learn how to separate clean code from code with side effects.
 
@@ -24,7 +24,7 @@ const isPrime = (num) => {
   
   const sayPrimeOrNot = (num) => {
     const text = isPrime(num) ? 'yes' : 'no';
-    console.log(text);
+    return text;
   };
   
   export default sayPrimeOrNot;

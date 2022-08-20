@@ -5,7 +5,7 @@ describe('should be prime', () => {
 
   test.each(numbers)('test with %i', (num) => {
     sayPrimeOrNot(num);
-    expect(console.log).toHaveBeenLastCalledWith('yes');
+    expect(sayPrimeOrNot(num)).toBe('yes');
   });
 });
 
@@ -14,6 +14,6 @@ describe('should not be prime', () => {
 
   test.each(numbers)('test with %i', (num) => {
     sayPrimeOrNot(num);
-    expect(console.log).toHaveBeenLastCalledWith('no');
+    expect(sayPrimeOrNot(num)).toBe('no');
   });
 });
