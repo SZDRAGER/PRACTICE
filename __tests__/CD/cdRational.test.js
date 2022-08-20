@@ -8,7 +8,7 @@ import {
   sub,
   mul,
   div,
-} from "../CompositeDataTasks/cdRational.js";
+} from "../../Tasks/CompositeDataTasks/cdRational.js";
 
 const rat1 = make(2, 3);
 const rat12 = make(1, 4);

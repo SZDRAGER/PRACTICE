@@ -1,5 +1,5 @@
 import { mkdir, mkfile } from '@hexlet/immutable-fs-trees';
-import findFilesByName from '../../Trees/findFilesByName.js';
+import findFilesByName from '../../Tasks/Trees/findFilesByName.js';
 
 const tree = mkdir('/', [
   mkdir('etc', [

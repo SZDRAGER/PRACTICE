@@ -1,4 +1,4 @@
-import compose from '../CompositeDataTasks/compose.js';
+import compose from '../../Tasks/CompositeDataTasks/compose.js';
 
 test('compose', () => {
   expect(compose((v) => v, (v) => v)(10)).toBe(10);

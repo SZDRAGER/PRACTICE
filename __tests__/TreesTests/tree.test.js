@@ -4,7 +4,7 @@ import {
   mkfile,
   getMeta,
 } from "@hexlet/immutable-fs-trees";
-import { compressImages } from "../../Trees/tree.js";
+import { compressImages } from "../../Tasks/Trees/tree.js";
 
 test("compressImages 1", () => {
   const tree = mkdir(

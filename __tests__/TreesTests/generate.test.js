@@ -1,4 +1,4 @@
-import generate from '../../Trees/generator.js';
+import generate from '../../Tasks/Trees/generator.js';
 
 test('generate', () => {
   const expectation = ({

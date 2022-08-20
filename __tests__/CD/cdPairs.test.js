@@ -1,4 +1,4 @@
-import { cons, car, cdr } from "../CompositeDataTasks/cdPairs.js";
+import { cons, car, cdr } from "../../Tasks/CompositeDataTasks/cdPairs.js";
 
 describe("Pairs", () => {
   it("test car", () => {

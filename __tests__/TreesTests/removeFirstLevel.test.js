@@ -1,4 +1,4 @@
-import removeFirstLevel from '../../Trees/removeFirstLevel.js';
+import removeFirstLevel from '../../Tasks/Trees/removeFirstLevel.js';
 
 test('removeFirstLevel', () => {
   const tree1 = [];

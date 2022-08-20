@@ -1,6 +1,6 @@
 // @ts-check
 
-import make from '../../OOP/OOPTaskOne.js';
+import make from '../../Tasks/OOP/OOPTaskOne.js';
 
 test('rational', () => {
   const rat1 = make(3, 9);

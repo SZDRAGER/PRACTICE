@@ -1,6 +1,6 @@
 import _ from "lodash";
 import { mkdir, mkfile } from "@hexlet/immutable-fs-trees";
-import downcaseFileNames from "../../Trees/downcaseFileNames.js";
+import downcaseFileNames from "../../Tasks/Trees/downcaseFileNames.js";
 
 describe("should", () => {
   test("be immutable", () => {

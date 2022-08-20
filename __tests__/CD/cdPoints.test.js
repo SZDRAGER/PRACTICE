@@ -1,5 +1,5 @@
-import { calculateDistance, getSymmetricalPoint, getQuadrant } from '../CompositeDataTasks/cdPoints.js';
-import makePoint from "../AbstractionTasks/PolarToDescart";
+import { calculateDistance, getSymmetricalPoint, getQuadrant } from '../../Tasks/CompositeDataTasks/cdPoints.js';
+import makePoint from "../../Tasks/AbstractionTasks/PolarToDescart";
 describe("points", () => {
   it("getQuadrant", () => {
     expect(getQuadrant(makePoint(0, 0))).toBeNull();

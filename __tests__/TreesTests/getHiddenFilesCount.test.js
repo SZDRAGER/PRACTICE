@@ -1,6 +1,6 @@
 import _ from "lodash";
 import { mkdir, mkfile } from "@hexlet/immutable-fs-trees";
-import getHiddenFilesCount from "../../Trees/getHiddenFilesCount.js";
+import getHiddenFilesCount from "../../Tasks/Trees/getHiddenFilesCount.js";
 
 test("getHiddenFilesCount 1", () => {
   const tree = mkdir("/", [

@@ -1,4 +1,4 @@
-import concat from '../CompositeDataTasks/concat.js';
+import concat from '../../Tasks/CompositeDataTasks/concat.js';
 
 test('compose', () => {
   expect(concat('')('')('')).toBe('');

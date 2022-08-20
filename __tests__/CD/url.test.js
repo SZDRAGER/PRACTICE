@@ -1,4 +1,4 @@
-import { make, getProtocol, getHost, getPath, setProtocol, setHost, setPath, getQueryParam, setQueryParam, toString } from '../AbstractionTasks/url.js';
+import { make, getProtocol, getHost, getPath, setProtocol, setHost, setPath, getQueryParam, setQueryParam, toString } from '../../Tasks/AbstractionTasks/url.js';
 
 describe('url', () => {
   it('make', () => {

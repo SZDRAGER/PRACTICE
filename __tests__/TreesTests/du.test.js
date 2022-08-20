@@ -1,6 +1,6 @@
 
 import { mkdir, mkfile, getChildren } from '@hexlet/immutable-fs-trees';
-import du from '../../Trees/du.js';
+import du from '../../Tasks/Trees/du.js';
 
 const tree = mkdir('/', [
     mkdir('etc', [
