@@ -27,4 +27,4 @@ const isPrime = (num) => {
     return text;
   };
   
-  export default sayPrimeOrNot;
+export default sayPrimeOrNot;
