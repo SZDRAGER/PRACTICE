@@ -1,5 +1,3 @@
-import sayPrimeOrNot from '../../Tasks/HighOrderFunctionsTasks/HOFTaskOne.js';
-
 import average from '../../Tasks/HighOrderFunctionsTasks/HOFTaskTwo.js';
 
 it('average', () => {
