@@ -18,7 +18,12 @@ takeOldest(users);
 // ];
 */
 
+import _ from 'lodash';
+
+// BEGIN
 const takeOldest = (users, count = 1) => {
-  const sortedUsers = users.sort((a, b) => (Date.parse(a.birthday) > Date.parse(b.birthday)) ? 1 : -1);
-  return sortedUsers.slice(0, count);
+  const sorted = _.sortBy(users, ({ birthday }) => Date.parse(birthday));
+  return sorted.slice(0, count);
 };
+
+export default takeOldest;
