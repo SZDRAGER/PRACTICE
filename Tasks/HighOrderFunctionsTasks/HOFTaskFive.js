@@ -1,4 +1,6 @@
 /* 
+Sorting
+
 Implement a takeOldest() function that takes a list of users as input and returns the oldest.
 The number of returned users is set by the second parameter, which is equal to one by default.
 Export this function by default.

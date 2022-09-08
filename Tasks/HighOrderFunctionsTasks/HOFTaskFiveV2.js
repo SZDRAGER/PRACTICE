@@ -1,4 +1,6 @@
 /* 
+Sorting
+
 Implement a takeOldest() function that takes a list of users as input and returns the oldest.
 The number of returned users is set by the second parameter, which is equal to one by default.
 Export this function by default.
@@ -20,7 +22,6 @@ takeOldest(users);
 
 import _ from 'lodash';
 
-// BEGIN
 const takeOldest = (users, count = 1) => {
   const sorted = _.sortBy(users, ({ birthday }) => Date.parse(birthday));
   return sorted.slice(0, count);
