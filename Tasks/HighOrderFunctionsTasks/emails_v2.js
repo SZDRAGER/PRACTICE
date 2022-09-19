@@ -21,13 +21,20 @@ const freeEmailDomains = [
 ];
 const getFreeDomainsCount = (emails) => emails
   .map((email) => {
+    // make a list of domains out of the emails and change non free domains to ''
     const [, domain] = email.split('@');
-    return domain;
+    if (freeEmailDomains.includes(domain)) {
+      return domain;
+    }
+    return '';
   })
-  .filter((domain) => freeEmailDomains.includes(domain))
-  .reduce((acc, domain) => { 
-    const count = get(acc, domain, 0) + 1;
-    return { ...acc, [domain]: count};
+  .reduce((acc, domain) => {
+    // count free emails
+    if (domain !== '') {
+      const count = get(acc, domain, 0) + 1;
+      return { ...acc, [domain]: count};
+    }
+    return { ...acc};
   }, {})
 
 console.log(getFreeDomainsCount(emails))
