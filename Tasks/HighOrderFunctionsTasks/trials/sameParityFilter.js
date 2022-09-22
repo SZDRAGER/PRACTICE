@@ -1,23 +1,20 @@
-const array = [3, 1, 2, 4]
+/*
+Implement and export by default a function that takes an array as input and returns
+a new one consisting of elements that have the same parity as the first element of the input array.
 
+sameParity([-1, 0, 1, -3, 10, -2]); // [-1, 1, -3]
+sameParity([2, 0, 1, -3, 10, -2]); // [2, 0, 10, -2]
+sameParity([]); // []
+*/
 
+const isEven = (num) => num % 2 === 0;
 
-const isEven = (number) => { return number % 2 === 0 ? true : false};
-const firstItemStatus = isEven(array[0]);
-const checkSameParity = (array) => array.filter((item) => firstItemStatus === isEven(item));
+const checkSameParity = (arr) => {
+  const firstItemStatus = isEven(arr[0]);
+  return arr.filter((el) => isEven(el) === firstItemStatus);
+};
 
-// if number - item > currenClosest  then add to index
-
-const goal = 5;
-const a = (array) => array
-    .reduce((prev, curr) => {
-        const [prevItem , prevIndex] = prev;
-        const prevIndex = array.
-        return (Math.abs(curr - goal) < Math.abs(prevItem - goal) ? curr : [prevItem, prevIndex]);
-    })
-
-console.log(a(array))
-
+export default checkSameParity;
 
 
 
