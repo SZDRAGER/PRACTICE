@@ -1,4 +1,4 @@
-import filterAnagrams from '../../../Tasks/HighOrderFunctionsTasks/trials//filterAnagrams.js';
+import filterAnagrams from '../../../Tasks/HighOrderFunctionsTasks/trials/filterAnagrams.js';
 
 test('Anagrams filter', () => {
   expect(filterAnagrams('laser', ['lazing', 'lazy', 'lacer'])).toEqual([]);
